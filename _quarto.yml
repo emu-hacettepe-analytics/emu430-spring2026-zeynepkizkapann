@@ -46,8 +46,8 @@ format:
     toc: true
     toc-location: left
     theme: 
-      light: Simplex 
-      dark: Slate
+      light: simplex 
+      dark: simplex
     css: styles.css
 
 
