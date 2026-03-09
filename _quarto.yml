@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Zeynep Kızkapan]'s Analytics Lab"
+  title: "Zeynep Kızkapan's Analytics Lab"
   navbar:
     search: true
     left:
@@ -46,8 +46,8 @@ format:
     toc: true
     toc-location: left
     theme: 
-      light: pulse 
-      dark: superhero
+      light: Simplex 
+      dark: Slate
     css: styles.css
 
 
