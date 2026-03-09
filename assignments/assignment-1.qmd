@@ -2,9 +2,9 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
 My first assignment has two parts.
+
+### **Source:** [**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir**](https://www.youtube.com/watch?v=tV_0pHSdLAM&start=4)
 
 ## (a) 
 
@@ -32,4 +32,4 @@ The world of data analytics is divided into four fundamental stages: "descriptiv
 
 **E)** *Descriptive Analytics:* Using machine learning algorithms to forecast next month's customer demand.
 
-**Answer:** **D) Prescriptive Analytics**
+**Answer: D) Prescriptive Analytics**
