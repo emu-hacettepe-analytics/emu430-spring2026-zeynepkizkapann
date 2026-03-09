@@ -18,7 +18,7 @@
     "href": "assignments/assignment-2.html",
     "title": "Assignment 2",
     "section": "",
-    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "text": "Back to top",
     "crumbs": [
       "Assignment 2"
     ]
@@ -42,7 +42,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "My first assignment has two parts.",
+    "text": "My first assignment has three parts.",
     "crumbs": [
       "Assignment 1"
     ]
@@ -62,7 +62,7 @@
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "(b)",
-    "text": "(b)\n\nOpen-Ended Question\nQuestion: During the presentation, Dr. Baykal Hafızoğlu states that the core optimization or analytical model often constitutes only about 1% of the total work in a real-world software project. What makes up the remaining 99% of the effort, and why is that 1% still considered the most critical component despite its small size?\nAnswer: The remaining 99% of the effort consists of tasks necessary to make the model accessible and functional for the end-user. This includes data wrangling, database management, error handling, deployment, and especially building a clean, user-friendly Graphical User Interface (GUI). Although the analytics code is only 1% of the total lines of code, it acts as the “engine” of the application. Without the 99% infrastructure, end-users cannot interact with or adopt the solution; however, without that 1% core analytical model, the entire application would be useless because it wouldn’t solve the actual business problem.\n\n\n2. Multiple-Choice Question\nQuestion: Dr. Hafızoğlu categorizes the analytics world into four main stages: Descriptive, Diagnostic, Predictive, and Prescriptive. Based on his explanations, which of the following accurately matches the analytics stage with its corresponding methodology or goal?\nA) Descriptive Analytics: Using hypothesis testing to determine the root causes of why a factory’s production defect rate increased.\nB) Predictive Analytics: Creating a mathematical optimization model to decide how much safety stock a company should keep.\nC) Diagnostic Analytics: Visualizing historical data using bar charts and box plots to show past sales trends.\nD) Prescriptive Analytics: Utilizing optimization solvers to generate actionable decisions and provide a “prescription” on what steps a business should take.\nE) Descriptive Analytics: Using machine learning algorithms to forecast next month’s customer demand.\nAnswer: D) Prescriptive Analytics",
+    "text": "(b)\n\n1. Open-Ended Question\nQuestion: During the presentation, Dr. Baykal Hafızoğlu states that the core optimization or analytical model often constitutes only about 1% of the total work in a real-world software project. What makes up the remaining 99% of the effort, and why is that 1% still considered the most critical component despite its small size?\nAnswer: The remaining 99% of the effort consists of tasks necessary to make the model accessible and functional for the end-user. This includes data wrangling, database management, error handling, deployment, and especially building a clean, user-friendly Graphical User Interface (GUI). Although the analytics code is only 1% of the total lines of code, it acts as the “engine” of the application. Without the 99% infrastructure, end-users cannot interact with or adopt the solution; however, without that 1% core analytical model, the entire application would be useless because it wouldn’t solve the actual business problem.\n\n\n2. Multiple-Choice Question\nQuestion: Dr. Hafızoğlu categorizes the analytics world into four main stages: Descriptive, Diagnostic, Predictive, and Prescriptive. Based on his explanations, which of the following accurately matches the analytics stage with its corresponding methodology or goal?\nA) Descriptive Analytics: Using hypothesis testing to determine the root causes of why a factory’s production defect rate increased.\nB) Predictive Analytics: Creating a mathematical optimization model to decide how much safety stock a company should keep.\nC) Diagnostic Analytics: Visualizing historical data using bar charts and box plots to show past sales trends.\nD) Prescriptive Analytics: Utilizing optimization solvers to generate actionable decisions and provide a “prescription” on what steps a business should take.\nE) Descriptive Analytics: Using machine learning algorithms to forecast next month’s customer demand.\nAnswer: D) Prescriptive Analytics",
     "crumbs": [
       "Assignment 1"
     ]

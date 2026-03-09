@@ -23,8 +23,6 @@ website:
     tools:
       - icon: github
         href: https://github.com/zeynepkizkapann
-      - icon: twitter
-        href: https://twitter.com
       - icon: linkedin
         href: https://www.linkedin.com/in/zeynepkizkapan/
 
@@ -46,8 +44,8 @@ format:
     toc: true
     toc-location: left
     theme: 
-      light: simplex 
-      dark: simplex
+      light: flatly 
+      dark: darkly
     css: styles.css
 
 

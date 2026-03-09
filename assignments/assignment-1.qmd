@@ -2,17 +2,17 @@
 title: "Assignment 1"
 ---
 
-My first assignment has two parts.
+My first assignment has three parts.
 
 ### **Source:** [**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir**](https://www.youtube.com/watch?v=tV_0pHSdLAM&start=4)
 
-## (a) 
+## (a)
 
 The world of data analytics is divided into four fundamental stages: "descriptive," in which we simply visualize the data and understand the situation; "diagnostic," in which we identify the causes of events; "predictive," in which we predict the future using techniques like machine learning; and lastly, "predictive," in which we can actually execute the actions using optimization models. On the more practical side, I have gained knowledge of the golden rules that need to be followed when I leave school and start working on actual projects. Firstly and most obviously, the problem has to be well defined and linked to specific KPIs. Additionally, the analytical models that we develop after spending countless hours cannot simply be left idle on our own computers; they need to be deployed live with a UI. Instead of creating complex models, proceeding with simplicity so that the user understands the logic and constantly receiving feedback from them is vital to the success of the application. The most surprising thing to me was that even in large projects, the code that deals with the analysis and optimization that we are concerned with is merely 1% of the entire project. While the other 99% is spent gathering information, dealing with the database, and creating the interface, the realization that the application is pointless without this magical 1% was an eye-opener.
 
-## (b) 
+## (b)
 
-### Open-Ended Question
+### 1. Open-Ended Question
 
 **Question:** During the presentation, Dr. Baykal Hafızoğlu states that the core optimization or analytical model often constitutes only about 1% of the total work in a real-world software project. What makes up the remaining 99% of the effort, and why is that 1% still considered the most critical component despite its small size?
 
