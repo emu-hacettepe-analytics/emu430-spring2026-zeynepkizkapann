@@ -21,8 +21,7 @@ sidebar: false
 
 # Projects
 
-**Graduation Project- TUSAS :** AIR VEHICLE DESIGN AND DEVELOPMENT PROJECT SCHEDULING WITH UNCERTAIN
-ACTIVITY DURATIONS
+**Graduation Project- TUSAS :** AIR VEHICLE DESIGN AND DEVELOPMENT PROJECT SCHEDULING WITH UNCERTAIN ACTIVITY DURATIONS
 
 # Competencies
 
@@ -32,4 +31,7 @@ SAP ERP, Microsoft Office, Meta Business Suite
 
 Listening podcasts, playing volleyball, hiking
 
-RESUME
+# Resume
+
+You can download my CV in PDF format
+[Download My CV](CV_ZeynepKızkapan.pdf.pdf)

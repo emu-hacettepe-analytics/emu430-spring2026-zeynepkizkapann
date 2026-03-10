@@ -35,3 +35,86 @@ The world of data analytics is divided into four fundamental stages: "descriptiv
 **Answer: D) Prescriptive Analytics**
 
 ## (b)
+
+```{r}
+install.packages("dslabs")
+
+library(dslabs)
+data("polls_us_election_2016")
+
+```
+
+```{r}
+my_first <- "Zeynep"
+my_birth_year <- 2002
+```
+
+Defining integer k:
+
+```{r}
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+```
+
+```{r}
+if (k %% 2 == 0) {
+  print(head(polls_us_election_2016, k))
+} else {
+  print(tail(polls_us_election_2016, k))
+}
+```
+
+```{r}
+total_na <- sum(is.na(polls_us_election_2016))
+cat("Total number of NAs:", total_na, "\n\n")
+```
+
+```{r}
+na_per_col <- colSums(is.na(polls_us_election_2016))
+print("number of NA values per column, sorted from largest to smallest:")
+head(sort(na_per_col, decreasing = TRUE), 8)
+```
+
+```{r}
+new_data <- polls_us_election_2016
+```
+
+New object:
+
+```{r}
+new_data <- polls_us_election_2016
+
+for(col in names(new_data)){
+if(is.numeric(new_data[[col]])){
+  new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
+  
+} else if(is.character(new_data[[col]]) | is.factor(new_data[[col]])){
+  
+  if(is.factor(new_data[[col]])){
+    new_data[[col]] <- as.character(new_data[[col]])
+  }
+  
+  new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "", k)
+}
+}
+```
+
+```{r}
+cat("\nNew dataset with k rows:\n")
+if (k %% 2 == 0) {
+  print(head(new_data, k))
+} else {
+  print(tail(new_data, k))
+}
+```
+
+```{r}
+left_na <- sum(is.na(new_data))
+cat("\nTotal number of NAs in new dataset:", left_na, "\n")
+```
+
+```{r}
+cat("Are there any NAs left? ")
+anyNA(new_data)
+```
+
+**\*\***I directed the AI to perform a detailed missing value analysis and develop a specific imputation strategy where NAs in numeric columns were replaced by a calculated sum and NAs in factor or character columns were replaced by a custom string—ensuring all factor levels were properly handled—before finally requesting a validation step to confirm the integrity of the new dataset using the `anyNA()` function to ensure no missing values remained.
