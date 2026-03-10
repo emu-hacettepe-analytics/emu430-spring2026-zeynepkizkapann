@@ -1,0 +1,87 @@
+[
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Our Course Project",
+    "section": "",
+    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Analytics Lab",
+    "section": "",
+    "text": "Hello! My name is Zeynep Kızkapan.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing."
+  },
+  {
+    "objectID": "about.html#internships",
+    "href": "about.html#internships",
+    "title": "About Me",
+    "section": "Internships",
+    "text": "Internships\n\nIBTECH, Business Analyst Long-Term Intern, 2025-ongoing\nTANAP, Procurement and Supply Chain Intern, 2025\nSARUHAN KIMYA, Marketing Intern, 2024"
+  },
+  {
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "My first assignment has two parts.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a",
+    "href": "assignments/assignment-1.html#a",
+    "title": "Assignment 1",
+    "section": "(a)",
+    "text": "(a)\n\nBRIEF SUMMARY\nThe world of data analytics is divided into four fundamental stages: “descriptive,” in which we simply visualize the data and understand the situation; “diagnostic,” in which we identify the causes of events; “predictive,” in which we predict the future using techniques like machine learning; and lastly, “predictive,” in which we can actually execute the actions using optimization models. On the more practical side, I have gained knowledge of the golden rules that need to be followed when I leave school and start working on actual projects. Firstly and most obviously, the problem has to be well defined and linked to specific KPIs. Additionally, the analytical models that we develop after spending countless hours cannot simply be left idle on our own computers; they need to be deployed live with a UI. Instead of creating complex models, proceeding with simplicity so that the user understands the logic and constantly receiving feedback from them is vital to the success of the application. The most surprising thing to me was that even in large projects, the code that deals with the analysis and optimization that we are concerned with is merely 1% of the entire project. While the other 99% is spent gathering information, dealing with the database, and creating the interface, the realization that the application is pointless without this magical 1% was an eye-opener.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "(b)",
+    "text": "(b)\n\n#install.packages(\"dslabs\")\n\nlibrary(dslabs)\ndata(\"polls_us_election_2016\")\n\n\nmy_first &lt;- \"Zeynep\"\nmy_birth_year &lt;- 2002\n\nDefining integer k:\n\nk &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8\n\n\nif (k %% 2 == 0) {\n  print(head(polls_us_election_2016, k))\n} else {\n  print(tail(polls_us_election_2016, k))\n}\n\n              state  startdate    enddate                pollster grade\n4188 South Carolina 2016-09-23 2016-10-06                   Ipsos    A-\n4189           Utah 2016-10-25 2016-10-31 Google Consumer Surveys     B\n4190  New Hampshire 2016-01-04 2016-01-06   Public Policy Polling    B+\n4191        Florida 2016-06-08 2016-06-19   Quinnipiac University    A-\n4192           Ohio 2016-06-08 2016-06-19   Quinnipiac University    A-\n4193       New York 2016-02-28 2016-03-03           Siena College     A\n4194 North Carolina 2016-09-27 2016-10-02   Quinnipiac University    A-\n4195 North Carolina 2016-02-14 2016-02-16               SurveyUSA     A\n4196 North Carolina 2016-05-20 2016-05-22   Public Policy Polling    B+\n4197       Kentucky 2016-09-30 2016-10-13                   Ipsos    A-\n4198        Florida 2016-07-30 2016-08-07   Quinnipiac University    A-\n4199   Pennsylvania 2016-06-08 2016-06-19   Quinnipiac University    A-\n4200           Ohio 2016-06-30 2016-07-11   Quinnipiac University    A-\n4201 North Carolina 2016-03-18 2016-03-20   Public Policy Polling    B+\n4202   South Dakota 2016-10-28 2016-11-02                   Ipsos    A-\n4203     Washington 2016-10-21 2016-11-02                   Ipsos    A-\n4204       Virginia 2016-09-16 2016-09-22                   Ipsos    A-\n4205      Wisconsin 2016-08-04 2016-08-07    Marquette University     A\n4206           Utah 2016-11-01 2016-11-07 Google Consumer Surveys     B\n4207         Oregon 2016-10-21 2016-11-02                   Ipsos    A-\n4208       Michigan 2016-01-23 2016-01-26                EPIC-MRA    A-\n     samplesize population rawpoll_clinton rawpoll_trump rawpoll_johnson\n4188        258         lv           46.67         48.25              NA\n4189        245         lv           28.18         29.39            8.40\n4190       1036          v           50.00         36.00              NA\n4191        975         rv           42.00         36.00            7.00\n4192        971         rv           38.00         36.00            8.00\n4193        800         rv           57.00         34.00              NA\n4194        507         lv           46.00         43.00            7.00\n4195       1250         lv           43.00         45.00              NA\n4196        928          v           41.00         43.00            3.00\n4197        336         lv           39.38         53.08              NA\n4198       1056         lv           43.00         43.00            7.00\n4199        950         rv           39.00         36.00            9.00\n4200        955         rv           36.00         37.00            7.00\n4201        843          v           44.00         42.00              NA\n4202        170         lv           28.45         47.20              NA\n4203        538         lv           46.71         38.33              NA\n4204        452         lv           46.54         40.04              NA\n4205        683         lv           47.00         34.00            9.00\n4206        286         lv           21.33         35.05            9.99\n4207        446         lv           46.46         37.41              NA\n4208        600         lv           43.00         41.00              NA\n     rawpoll_mcmullin adjpoll_clinton adjpoll_trump adjpoll_johnson\n4188               NA        46.20387      49.13322              NA\n4189               NA        33.61454      36.01090        7.458243\n4190               NA        47.81869      35.91267              NA\n4191               NA        46.44439      41.33270        2.791570\n4192               NA        42.46502      41.36491        3.791570\n4193               NA        56.98850      38.83402              NA\n4194               NA        47.79437      44.86935        4.022323\n4195               NA        39.90517      44.40152              NA\n4196               NA        43.28262      47.12021       -0.036293\n4197               NA        38.34430      54.36357              NA\n4198               NA        45.19351      46.65680        3.448447\n4199               NA        43.35339      41.19061        4.791570\n4200               NA        40.73937      42.33380        2.936299\n4201               NA        42.13165      43.55006              NA\n4202               NA        26.57791      45.43384              NA\n4203               NA        45.56387      38.22545              NA\n4204               NA        46.47852      40.48017              NA\n4205               NA        48.74781      39.07778        4.705020\n4206               NA        26.65200      40.57738        9.705791\n4207               NA        45.12949      37.10720              NA\n4208               NA        42.14966      42.05508              NA\n     adjpoll_mcmullin\n4188               NA\n4189               NA\n4190               NA\n4191               NA\n4192               NA\n4193               NA\n4194               NA\n4195               NA\n4196               NA\n4197               NA\n4198               NA\n4199               NA\n4200               NA\n4201               NA\n4202               NA\n4203               NA\n4204               NA\n4205               NA\n4206               NA\n4207               NA\n4208               NA\n\n\n\ntotal_na &lt;- sum(is.na(polls_us_election_2016))\ncat(\"Total number of NAs:\", total_na, \"\\n\\n\")\n\nTotal number of NAs: 11604 \n\n\n\nna_per_col &lt;- colSums(is.na(polls_us_election_2016))\nprint(\"number of NA values per column, sorted from largest to smallest:\")\n\n[1] \"number of NA values per column, sorted from largest to smallest:\"\n\nhead(sort(na_per_col, decreasing = TRUE), 8)\n\nrawpoll_mcmullin adjpoll_mcmullin  rawpoll_johnson  adjpoll_johnson \n            4178             4178             1409             1409 \n           grade       samplesize            state        startdate \n             429                1                0                0 \n\n\n\nnew_data &lt;- polls_us_election_2016\n\nNew object:\n\nnew_data &lt;- polls_us_election_2016\n\nfor(col in names(new_data)){\nif(is.numeric(new_data[[col]])){\n  new_data[[col]][is.na(new_data[[col]])] &lt;- my_birth_year + k\n  \n} else if(is.character(new_data[[col]]) | is.factor(new_data[[col]])){\n  \n  if(is.factor(new_data[[col]])){\n    new_data[[col]] &lt;- as.character(new_data[[col]])\n  }\n  \n  new_data[[col]][is.na(new_data[[col]])] &lt;- paste0(my_first, \"\", k)\n}\n}\n\n\ncat(\"\\nNew dataset with k rows:\\n\")\n\n\nNew dataset with k rows:\n\nif (k %% 2 == 0) {\n  print(head(new_data, k))\n} else {\n  print(tail(new_data, k))\n}\n\n              state  startdate    enddate                pollster grade\n4188 South Carolina 2016-09-23 2016-10-06                   Ipsos    A-\n4189           Utah 2016-10-25 2016-10-31 Google Consumer Surveys     B\n4190  New Hampshire 2016-01-04 2016-01-06   Public Policy Polling    B+\n4191        Florida 2016-06-08 2016-06-19   Quinnipiac University    A-\n4192           Ohio 2016-06-08 2016-06-19   Quinnipiac University    A-\n4193       New York 2016-02-28 2016-03-03           Siena College     A\n4194 North Carolina 2016-09-27 2016-10-02   Quinnipiac University    A-\n4195 North Carolina 2016-02-14 2016-02-16               SurveyUSA     A\n4196 North Carolina 2016-05-20 2016-05-22   Public Policy Polling    B+\n4197       Kentucky 2016-09-30 2016-10-13                   Ipsos    A-\n4198        Florida 2016-07-30 2016-08-07   Quinnipiac University    A-\n4199   Pennsylvania 2016-06-08 2016-06-19   Quinnipiac University    A-\n4200           Ohio 2016-06-30 2016-07-11   Quinnipiac University    A-\n4201 North Carolina 2016-03-18 2016-03-20   Public Policy Polling    B+\n4202   South Dakota 2016-10-28 2016-11-02                   Ipsos    A-\n4203     Washington 2016-10-21 2016-11-02                   Ipsos    A-\n4204       Virginia 2016-09-16 2016-09-22                   Ipsos    A-\n4205      Wisconsin 2016-08-04 2016-08-07    Marquette University     A\n4206           Utah 2016-11-01 2016-11-07 Google Consumer Surveys     B\n4207         Oregon 2016-10-21 2016-11-02                   Ipsos    A-\n4208       Michigan 2016-01-23 2016-01-26                EPIC-MRA    A-\n     samplesize population rawpoll_clinton rawpoll_trump rawpoll_johnson\n4188        258         lv           46.67         48.25         2023.00\n4189        245         lv           28.18         29.39            8.40\n4190       1036          v           50.00         36.00         2023.00\n4191        975         rv           42.00         36.00            7.00\n4192        971         rv           38.00         36.00            8.00\n4193        800         rv           57.00         34.00         2023.00\n4194        507         lv           46.00         43.00            7.00\n4195       1250         lv           43.00         45.00         2023.00\n4196        928          v           41.00         43.00            3.00\n4197        336         lv           39.38         53.08         2023.00\n4198       1056         lv           43.00         43.00            7.00\n4199        950         rv           39.00         36.00            9.00\n4200        955         rv           36.00         37.00            7.00\n4201        843          v           44.00         42.00         2023.00\n4202        170         lv           28.45         47.20         2023.00\n4203        538         lv           46.71         38.33         2023.00\n4204        452         lv           46.54         40.04         2023.00\n4205        683         lv           47.00         34.00            9.00\n4206        286         lv           21.33         35.05            9.99\n4207        446         lv           46.46         37.41         2023.00\n4208        600         lv           43.00         41.00         2023.00\n     rawpoll_mcmullin adjpoll_clinton adjpoll_trump adjpoll_johnson\n4188             2023        46.20387      49.13322     2023.000000\n4189             2023        33.61454      36.01090        7.458243\n4190             2023        47.81869      35.91267     2023.000000\n4191             2023        46.44439      41.33270        2.791570\n4192             2023        42.46502      41.36491        3.791570\n4193             2023        56.98850      38.83402     2023.000000\n4194             2023        47.79437      44.86935        4.022323\n4195             2023        39.90517      44.40152     2023.000000\n4196             2023        43.28262      47.12021       -0.036293\n4197             2023        38.34430      54.36357     2023.000000\n4198             2023        45.19351      46.65680        3.448447\n4199             2023        43.35339      41.19061        4.791570\n4200             2023        40.73937      42.33380        2.936299\n4201             2023        42.13165      43.55006     2023.000000\n4202             2023        26.57791      45.43384     2023.000000\n4203             2023        45.56387      38.22545     2023.000000\n4204             2023        46.47852      40.48017     2023.000000\n4205             2023        48.74781      39.07778        4.705020\n4206             2023        26.65200      40.57738        9.705791\n4207             2023        45.12949      37.10720     2023.000000\n4208             2023        42.14966      42.05508     2023.000000\n     adjpoll_mcmullin\n4188             2023\n4189             2023\n4190             2023\n4191             2023\n4192             2023\n4193             2023\n4194             2023\n4195             2023\n4196             2023\n4197             2023\n4198             2023\n4199             2023\n4200             2023\n4201             2023\n4202             2023\n4203             2023\n4204             2023\n4205             2023\n4206             2023\n4207             2023\n4208             2023\n\n\n\nleft_na &lt;- sum(is.na(new_data))\ncat(\"\\nTotal number of NAs in new dataset:\", left_na, \"\\n\")\n\n\nTotal number of NAs in new dataset: 0 \n\n\n\ncat(\"Are there any NAs left? \")\n\nAre there any NAs left? \n\nanyNA(new_data)\n\n[1] FALSE\n\n\n**I directed the AI to perform a detailed missing value analysis and develop a specific imputation strategy where NAs in numeric columns were replaced by a calculated sum and NAs in factor or character columns were replaced by a custom string—ensuring all factor levels were properly handled—before finally requesting a validation step to confirm the integrity of the new dataset using the anyNA() function to ensure no missing values remained.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "My Assignments",
+    "section": "",
+    "text": "On this page, I showcase the assignment I conducted for the [Spring 2026] EMU430 Data Analytics course.\nPlease use the left menu to navigate through my assignments.\nThe most recent update to this page was made on 09/03/2026.\n\n\n\n Back to top",
+    "crumbs": [
+      "My Assignments"
+    ]
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "This page is under construction.\n\n\n\n Back to top"
+  }
+]
