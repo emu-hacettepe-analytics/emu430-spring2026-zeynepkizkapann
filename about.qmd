@@ -9,20 +9,20 @@ sidebar: false
 
 # Work Experience
 
-1.  Firm LYRO DIGITAL, position Social Media Assistant, year 2024 
-
+1.  **LYRO DIGITAL**, Social Media Assistant, 2024
 
 ## Internships
 
-1.  Firm IBTECH, position Business Analyst Intern, year 2025-ongoing
+1.  **IBTECH**, Business Analyst Long-Term Intern, 2025-ongoing
 
-2.  Firm TANAP, position Procurement and Supply Chain Intern, year 2025
+2.  **TANAP**, Procurement and Supply Chain Intern, 2025
 
-3.  Firm SARUHAN KIMYA, position Marketing Intern, year 2024 
+3.  **SARUHAN KIMYA**, Marketing Intern, 2024
 
 # Projects
 
-Graduation Project- TUSAS 
+**Graduation Project- TUSAS :** AIR VEHICLE DESIGN AND DEVELOPMENT PROJECT SCHEDULING WITH UNCERTAIN
+ACTIVITY DURATIONS
 
 # Competencies
 
@@ -30,4 +30,6 @@ SAP ERP, Microsoft Office, Meta Business Suite
 
 # Hobbies
 
-Listening to podcasts, playing volleyball, hiking
+Listening podcasts, playing volleyball, hiking
+
+RESUME
