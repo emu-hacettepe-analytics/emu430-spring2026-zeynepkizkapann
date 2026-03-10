@@ -384,13 +384,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">(a)</a>
   <ul class="collapse">
   <li><a href="#brief-summary" id="toc-brief-summary" class="nav-link" data-scroll-target="#brief-summary">BRIEF SUMMARY</a></li>
-  </ul></li>
-  <li><a href="#questions-answers" id="toc-questions-answers" class="nav-link" data-scroll-target="#questions-answers"><strong>Questions &amp; Answers</strong></a>
-  <ul class="collapse">
+  <li><a href="#questions-answers" id="toc-questions-answers" class="nav-link" data-scroll-target="#questions-answers"><strong>Questions &amp; Answers</strong></a></li>
   <li><a href="#open-ended-question" id="toc-open-ended-question" class="nav-link" data-scroll-target="#open-ended-question">1. Open-Ended Question</a></li>
   <li><a href="#multiple-choice-question" id="toc-multiple-choice-question" class="nav-link" data-scroll-target="#multiple-choice-question">2. Multiple-Choice Question</a></li>
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
   </ul></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
   </ul>
 </nav>
 </nav>
@@ -431,9 +429,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="brief-summary">BRIEF SUMMARY</h3>
 <p>The world of data analytics is divided into four fundamental stages: “descriptive,” in which we simply visualize the data and understand the situation; “diagnostic,” in which we identify the causes of events; “predictive,” in which we predict the future using techniques like machine learning; and lastly, “predictive,” in which we can actually execute the actions using optimization models. On the more practical side, I have gained knowledge of the golden rules that need to be followed when I leave school and start working on actual projects. Firstly and most obviously, the problem has to be well defined and linked to specific KPIs. Additionally, the analytical models that we develop after spending countless hours cannot simply be left idle on our own computers; they need to be deployed live with a UI. Instead of creating complex models, proceeding with simplicity so that the user understands the logic and constantly receiving feedback from them is vital to the success of the application. The most surprising thing to me was that even in large projects, the code that deals with the analysis and optimization that we are concerned with is merely 1% of the entire project. While the other 99% is spent gathering information, dealing with the database, and creating the interface, the realization that the application is pointless without this magical 1% was an eye-opener.</p>
 </section>
+<section id="questions-answers" class="level3">
+<h3 class="anchored" data-anchor-id="questions-answers"><strong>Questions &amp; Answers</strong></h3>
 </section>
-<section id="questions-answers" class="level1">
-<h1><strong>Questions &amp; Answers</strong></h1>
 <section id="open-ended-question" class="level3">
 <h3 class="anchored" data-anchor-id="open-ended-question">1. Open-Ended Question</h3>
 <p><strong>Question:</strong> During the presentation, Dr.&nbsp;Baykal Hafızoğlu states that the core optimization or analytical model often constitutes only about 1% of the total work in a real-world software project. What makes up the remaining 99% of the effort, and why is that 1% still considered the most critical component despite its small size?</p>
@@ -442,12 +440,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="multiple-choice-question" class="level3">
 <h3 class="anchored" data-anchor-id="multiple-choice-question">2. Multiple-Choice Question</h3>
 <p><strong>Question:</strong> Dr.&nbsp;Hafızoğlu categorizes the analytics world into four main stages: Descriptive, Diagnostic, Predictive, and Prescriptive. Based on his explanations, which of the following accurately matches the analytics stage with its corresponding methodology or goal?</p>
-<p><strong>A)</strong> <em>Descriptive Analytics:</em> Using hypothesis testing to determine the root causes of why a factory’s production defect rate increased.</p>
-<p><strong>B)</strong> <em>Predictive Analytics:</em> Creating a mathematical optimization model to decide how much safety stock a company should keep.</p>
-<p><strong>C)</strong> <em>Diagnostic Analytics:</em> Visualizing historical data using bar charts and box plots to show past sales trends.</p>
-<p><strong>D)</strong> <em>Prescriptive Analytics:</em> Utilizing optimization solvers to generate actionable decisions and provide a “prescription” on what steps a business should take.</p>
-<p><strong>E)</strong> <em>Descriptive Analytics:</em> Using machine learning algorithms to forecast next month’s customer demand.</p>
+<p><strong>A)</strong> Descriptive Analytics: Using hypothesis testing to determine the root causes of why a factory’s production defect rate increased.</p>
+<p><strong>B)</strong> Predictive Analytics: Creating a mathematical optimization model to decide how much safety stock a company should keep.</p>
+<p><strong>C)</strong> Diagnostic Analytics: Visualizing historical data using bar charts and box plots to show past sales trends.</p>
+<p><strong>D)</strong> Prescriptive Analytics: Utilizing optimization solvers to generate actionable decisions and provide a “prescription” on what steps a business should take.</p>
+<p><strong>E)</strong> Descriptive Analytics: Using machine learning algorithms to forecast next month’s customer demand.</p>
 <p><strong>Answer: D) Prescriptive Analytics</strong></p>
+</section>
 </section>
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
@@ -727,7 +726,6 @@ Total number of NAs in new dataset: 0 </code></pre>
 <p><strong>**</strong>I directed the AI to perform a detailed missing value analysis and develop a specific imputation strategy where NAs in numeric columns were replaced by a calculated sum and NAs in factor or character columns were replaced by a custom string—ensuring all factor levels were properly handled—before finally requesting a validation step to confirm the integrity of the new dataset using the <code>anyNA()</code> function to ensure no missing values remained.</p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
